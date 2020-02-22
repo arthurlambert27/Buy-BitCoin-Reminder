@@ -4,7 +4,7 @@ import requests
 import csv
 import time
 
-#Créer la notification pour Gnome
+#Affiche la notification pour Gnome
 def notificationAlerte(value):
     if value <= 20:
         titre = "URGENT - Bitcoin"
